@@ -39,6 +39,7 @@ session_start();
 <li><a href="#" class="hover" style="color:white"><i class="fa fa-book"></i>&nbsp;&nbsp;ABOUT US</a></li>
 <li><a href="#" class="hover"style="color:white"><i class="fa fa-file"></i>&nbsp;&nbsp;GALLERY</a></li>
 <li><a href="#" class="hover" style="color:white"><i class="fa fa-phone"></i>&nbsp;&nbsp;CONTACT US</a></li>
+<li><a href="#" class="hover" style="color:white"><i class="fa fa-phone"></i>&nbsp;&nbsp;Elab</a></li>
 
 <li class="dropdown"><a href="#" data-toggle="dropdown" class="hover" style="color:white"><i class="fa fa-user"></i>&nbsp;&nbsp;ACCOUNT&nbsp;<i class="caret"></i></a>
 <ul class="dropdown-menu">
