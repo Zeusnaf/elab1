@@ -169,7 +169,7 @@ echo "
 						<thead>
 						<tr>
 							<th>Product_id</th>
-							<th>Type</th>
+							<!--<th>Type</th>-->
 							<th>Quantity Used</th>
 							<th>Quantity Remaining</th>
 							
