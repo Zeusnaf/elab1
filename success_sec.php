@@ -3,7 +3,7 @@ $user=$_SESSION['user'];
 ?>
 <div class="container">
 <div class="row">
-<div class="col-sm-3 thumbnail" style="border-width:0px">
+<!--<div class="col-sm-3 thumbnail" style="border-width:0px">-->
 <?php 
 include 'sidebar_sec.php';
 ?>
