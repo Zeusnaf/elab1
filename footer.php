@@ -1,5 +1,5 @@
 
-<div class="well" style="background:#1e90ff;color:white;text-align:center">
+<!--<div class="well" style="background:#1e90ff;color:white;text-align:center">-->
 <p>Designed by Naftaly||All right reserved &copy;<?php echo date('Y'); ?></p>
 </div>
 <script src="jquery-1.11.1.min.js"></script>
