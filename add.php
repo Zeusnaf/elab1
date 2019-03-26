@@ -1,5 +1,5 @@
-<!--<div class="well" style="background:white;margin-left:10px">-->
-<!--<span style="text-align:center"><h3>Add Administrators</h3></span>-->
+<div class="well" style="background:white;margin-left:10px">
+<span style="text-align:center"><h3>Add Administrators</h3></span>
 <hr>
 <?php
 if(isset($_POST['addadmin'])){
