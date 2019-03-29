@@ -1,5 +1,5 @@
 <ul class="nav nav-tabs pull-right" style="padding:10px">
-<li><a href="success_lab.php?borrow" style="background:#1e90ff;color:white">Borrow</a></li>
+<!--<li><a href="success_lab.php?borrow" style="background:#1e90ff;color:white">Borrow</a></li>-->
 <li><a href="success_lab.php?return">Return</a></li>
 </ul>
 
