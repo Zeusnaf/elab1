@@ -214,7 +214,8 @@ echo "
 							
 						} ?>
 						</tbody>
-							 <button type="button" class="btn btn-success pull-right" id="print" value="statement">print</button>
+                        <a href='print_broken.php' class="btn btn-success pull-right">Print</a>
+							 <!--<button type="button" class="btn btn-success pull-right" id="print" value="statement">print</button>-->
 							 </table>
 						
 					</div><!--End of panel body-->

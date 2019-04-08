@@ -1,5 +1,5 @@
-<!--<div class="well" style="background:white;margin-left:10px">-->
-<!--<span style="text-align:center"><h3>Update used solutions</h3></span>-->
+<div class="well" style="background:white;margin-left:10px">
+<span style="text-align:center"><h3>Update used solutions</h3></span>
 <hr>
 <?php
 include 'connect.php';
@@ -168,8 +168,8 @@ echo "
 						<table class="table table-hover table-striped table-condensed" id="tableprint">
 						<thead>
 						<tr>
-							<th>Product_id</th>
-							<!--<th>Type</th>-->
+							<th>equipement_id</th>
+							<th>quantity</th>
 							<th>Quantity Used</th>
 							<th>Quantity Remaining</th>
 							
@@ -177,7 +177,7 @@ echo "
 							</tr>
 						</thead>
 						<tbody>
-											<?php
+						<?php
 					$select="SELECT * FROM used";
 						$que=$connect->query($select);
 						while($data=$que->fetch_object()){
@@ -200,7 +200,7 @@ echo "
 							<td>$id</td>
 							<td>$tyyp</td>
 							<td>$quantity</td>
-							<td>$quantity_r</td>
+							<td>$quantity_remaining</td>
 							
 							
 							
@@ -212,7 +212,8 @@ echo "
 							
 						} ?>
 						</tbody>
-							 <button type="button" class="btn btn-success pull-right" id="print" value="statement">print</button>
+                        <a href='print_usedsolution.php' class="btn btn-success pull-right">Print</a>
+							 <!--<button type="button" class="btn btn-success pull-right" id="print" value="statement">print</button>-->
 							 </table>
 						
 					</div><!--End of panel body-->

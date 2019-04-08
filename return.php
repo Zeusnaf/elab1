@@ -149,7 +149,8 @@ $select="SELECT * FROM borrowed_equip  WHERE status ='returned'";
         
     } ?>
 						</tbody>
-							 <button type="button" id="print" class="btn btn-success pull-right">print</button>
+                        <a href='print_pdf.php' class="btn btn-success pull-right">Print</a>
+							 <!-- <button type="button" id="print" class="btn btn-success pull-right">print</button> -->
 							 </table>
 						
 					</div><!--End of panel body-->
