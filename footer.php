@@ -26,21 +26,6 @@
       });
   });
  
-    $("#print").on('click',function(){
-        
-        var dataToPrint=document.getElementById("tableprint").value;
-        
-        var printt=window.open("");
-        var printtt=window.open('','mydiv','height=400,width=600');
-        printtt.document.write('<html><head><title></title>');
-        printtt.document.write('<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>');
-        printtt.document.write('<style type="text/css">#tableprint{border-width:2px;}</style></head><body>');
-        printtt.document.write(dataToPrint);
-        printtt.document.write('</body></html>');
-       
-        printtt.print();
-        printtt.close();
-    });
   </script>
 </body>
 </html>

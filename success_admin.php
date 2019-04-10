@@ -12,6 +12,7 @@ include 'sidebar.php';
 
 </div>
 <div class="col-sm-9">
+
 <?php
 if(isset($_GET['add'])){
     include 'add.php';

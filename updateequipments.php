@@ -200,7 +200,7 @@ echo "
 							<td>$id</td>
 							<td>$tyyp</td>
 							<td>$quantity</td>
-							<td>$quantity_remaining</td>
+							<td>$quantity_r</td>
 							
 							
 							

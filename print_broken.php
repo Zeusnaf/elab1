@@ -37,15 +37,19 @@
     $pdf->SetFont('helvetica', '', 11);  
     $pdf->AddPage();  
     $content = '';  
-    $content .= '
+	$content .= '
+	<div>
+	<center><img src="img/lab3.jpeg" class="" style="height:80px;width:80px;text-align:center;"/></center>
+	</div>
       	<h2 align="center"> Elab Broken Equipments</h2>
       	<table border="1" cellspacing="0" cellpadding="3">  
            <tr>  
-                <th width="10%">Product ID</th>
+				<th width="10%">Product ID</th>
 				<th width="20%">Type</th>
 				<th width="20%">Quantity</th>
+				<th width="20%">Broken by</th>
 				<th width="20%">Description</th>
-				<th width="30%">Date</th>  
+			
            </tr>  
       ';  
     $content .= generateRow();  

@@ -41,11 +41,11 @@
       	<h2 align="center">Elab Used solution</h2>
       	<table border="1" cellspacing="0" cellpadding="3">  
            <tr>  
-                <th width="10%">Product ID</th>
-				<th width="20%">Type</th>
+                <th width="20%">Equipement ID</th>
 				<th width="20%">Quantity</th>
-				<th width="20%">Description</th>
-				<th width="30%">Date</th>  
+				<th width="20%">Quantity used</th>
+				<th width="20%">Quantity remaining</th>
+				
            </tr>  
       ';  
     $content .= generateRow();  

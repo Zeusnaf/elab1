@@ -9,7 +9,7 @@
 
 </div>
 </form>
-<table style="margin-top:-40px" class="table table-bordered table-striped table-responsive table-condensed table-hovered">
+<table style="margin-top:-10px" class="table table-bordered table-striped table-responsive table-condensed table-hovered">
 <thead>
 <tr>
 <th>Firstname</th>
